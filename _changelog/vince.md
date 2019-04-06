@@ -4,33 +4,29 @@ layout:changelayout
 ---
 
 ==============
-   30/03/19
+   06/04/19
 ==============
 Device Side Stuff
-* Kernel Merged linux stable 4.9.166
-* Add KCal and Sound Control
-* drop_caches: drop pagecaches on screen-off
-* vince: Thermal-conf: set the correct thermal by klozz
-* vince: Update WCNSS_qcom_cfg.ini from deen's PPK29.68-16-8
-* vince: audio: config: Remove 2 instance support for "primary input"
+* Kernel Merged linux stable 4.9.168
+* vince: Add QC RIL service support
+* vince: Update thermal blobs from Redmi 7
+* vince: configs: Add really working thermal config for 4.9
+* vince: init: switch to 2GB dalvik values for 3GB variant
+* vince: enable PRODUCT_ENFORCE_RRO_TARGETS
+* Update vendor security patch level
+* vince: Wait for MPCTL to start on boot
+* vince: gps: Disable xtwifi related services
+* Finally fixed facing fp touch bug!!!
+* Finally fixed all thermal bugs in kernel 4.9!!!
 
 ROM Side Stuff
-* ROM rebase to fix statusbar clock, now it should be work correctly, and even behave nicely on notch devices!
-* Statusbar Headers 
-* Lockscreen clocks
-* Launcher3 rebased and completely up-to-date
-* Switch volume panel position + Extended (like Oreo)
-* Grid recents are back
-* Recents clear all + membar
-* Ambient ticker with new UI (based on Q beta)
-* Minimal stuff, like FP vibration authentication, disable qs slide on secured phones, tiles like sync and ambient display
-* Switched to gboard go and phonograph
-* Slim Recents
-* Added changelog section
-* Themes: Themed more apps like OTA, Dialer, Contacts, File manager and phonograph
-* OP gestures
-* Smart and quick pulldown
-* Some more optimization to Ambient Ticker and many other features
-* Added john notwoodman, who isn't woodman
+* Fixed a system hang caused by disabling edge gestures (credits to jenslody) 
+* Themed All apps search bar on Launcher3 
+* Updated Links on Dumpster > About and also, removed G+ because that social network went to the same place our childhood puppy went, hope both come back soon :( 
+* Fixed a derp with the ShishuOTA overlay on Shishu Nights
+* Added missing permissions for Pixel/Devices without debug props for permissions. 
+* Added some missing headers on OmniStyle 
+* Fixed glitch on LS Filters for players like Phonograph, Black Player, etc, and also added 2 new effects, accent tinted cover art and grayscaled + blurred cover art 
+* April Security patch merged
 
 CLEAN FLASH REQUIRED
