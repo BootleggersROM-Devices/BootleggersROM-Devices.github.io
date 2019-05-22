@@ -29,3 +29,16 @@ Device Side Stuff
 ROM Side Stuff
 
 CLEAN FLASH PLS
+
+=====================
+    22/05/2019
+=====================
+
+* May Security Patch.
+* added CAF binderised PowerHAL.
+* added Dirac Support.
+* added Dirac QS tile.
+* updated MotoActions with dirac settings.
+* switch to IMMENSITY-CAF kernel
+* Fixed MiFare NFC.
+* Updated configs from stock.
