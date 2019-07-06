@@ -2,6 +2,12 @@
 codename:potter 
 ---
 
+=====================
+    07/07/2019
+=====================
+* July Security Patch
+* Optimus Drunk HMP is default now
+
 ==============
    23/06/19
 ==============
