@@ -3,6 +3,16 @@ codename:walleye
 ---
 
 =====================
+    05/07/2019
+=====================
+* July Security Patch
+
+=====================
+    23/06/2019
+=====================
+* Symlink fix for libdmengine_32.so/Carrier Provisioning FC. Credit to @fkfmfz
+
+=====================
     12/06/2019
 =====================
 * - 4.2 version update

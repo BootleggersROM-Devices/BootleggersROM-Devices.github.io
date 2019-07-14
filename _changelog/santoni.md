@@ -1,6 +1,16 @@
 ---
 codename:santoni
 ---
+    06/07/2019
+* July security patch
+* Added apt blobs from crosshatch
+* Fixed dt2w switch in settings (this WILL drain your battery if enabled. thx to beingstargazer for the tip)
+* Miui offline charging animation
+* Cleanup camera test packages
+* Kernel built with clang 9.0.4
+* Kernel: Merged LA.UM.7.6.r1-05300-89xx.0 caf tag
+* Kernel: Merged LA.UM.7.6.r1-05300-89xx.0 caf tag wlan prima
+* Kernel: Merged f2fs updates
     11/06/2019
 * Rebased to non treble tree (thx to Nichcream for common tree and Ryan for improving it)
 * Latest DarkPhoenix kernel built with clang 9.0.3

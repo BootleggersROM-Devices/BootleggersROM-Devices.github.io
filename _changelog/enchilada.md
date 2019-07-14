@@ -218,3 +218,13 @@ Update gcam(thanks to arnova)
 * Fixes and improvements
 * Launcher3 now has the window to icon animations, and also, fixed dark google feed
 * Revert: Revert: [DO NOT MERGE] Partial Revert of john woodman
+
+
+
+
+
+=====================                                             
+    07/07/2019                                                                                               
+=====================      
+* July Security patch.           
+* Some minor changes too busy to type              
