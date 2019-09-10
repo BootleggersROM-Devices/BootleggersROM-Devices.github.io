@@ -3,15 +3,32 @@ codename:vince
 ---
 
 ==============
-   15/07/19
+   10/09/19
 ==============
-Device Side Stuff
-* Kernel Merged linux stable 4.9.185
-* msm8953-common: Update Brightness overlay
-* msm8953-common: Update nitz radio properties
-* msm8953-common: overlay: Add wifi tcp buffersizes
-* msm8953-common: Set BT_CLEAN_TURN_ON_DISABLED flag to TRUE
-* msm8953-common: Use persist time services
-
-ROM Side Stuff
-* Tag android-9.0.0_r44 (July Security Patch)
+* Gaming Mode v2 -Now with roblox support-
+* Fixes for QS detailed view
+* Advanced location enabled
+* Added support for Pixel stand
+* Updated some boost framework stuff
+* Adding cutout force full screen
+* Shishu Launcher Free with a premium upgrade added
+* Added LiveDisplay
+* Force powersave on system apps
+* New intro for new devices
+* Moving net indicator to expanded statusbar header
+* Fixes for Q clock strings
+* Long screenshot
+* Internal Audio recording
+* New launcher quickspace stuff: Adding now playing -even though it's not fully compatible-, Personality (taken from lawnchair) and a new UI, more minimalistic
+* Fixed the inverted navbar layout
+* People actually fell off thinking that Shishu Launcher Premium was a thing, so we reverted that joke on our changelog
+* Switched to Lineage Fingerprint on Display code
+* Added support for sliders for OP devices
+* Added some goofy stuff: like The Drill and Developer mode insulter
+* Updated our APNs
+* Fixed dialer dark numbers on numpad
+* Misc fixes
+* Removed Roblox as system app
+* September security patch 
+* Network icons fixed. 
+* More bug fixes and optimisations
