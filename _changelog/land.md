@@ -57,3 +57,11 @@ Device:
 * Misc fixes
 * Removed Roblox as system app
 
+=====================
+    22/09/2019
+=====================
+
+* September Security Patch
+* Fixes LiveDisplay
+* Added Call Recording back
+
