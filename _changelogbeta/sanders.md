@@ -1,7 +1,7 @@
 ---
 codename:sanders
 ---
-· 11/20/2019
+· 12/01/2019
 * Added OpenCamera and Updated 32 bit Camera Packages
 * Fixed Manual Network Selection and Updated IMS Packages from Android 10
 * Added permissions for Android Auto Top Gear effort and Gearhead legacy
