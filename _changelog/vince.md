@@ -3,32 +3,30 @@ codename:vince
 ---
 
 ==============
-   10/09/19
+  02/14/2020
 ==============
-* Gaming Mode v2 -Now with roblox support-
-* Fixes for QS detailed view
-* Advanced location enabled
-* Added support for Pixel stand
-* Updated some boost framework stuff
-* Adding cutout force full screen
-* Shishu Launcher Free with a premium upgrade added
-* Added LiveDisplay
-* Force powersave on system apps
-* New intro for new devices
-* Moving net indicator to expanded statusbar header
-* Fixes for Q clock strings
-* Long screenshot
-* Internal Audio recording
-* New launcher quickspace stuff: Adding now playing -even though it's not fully compatible-, Personality (taken from lawnchair) and a new UI, more minimalistic
-* Fixed the inverted navbar layout
-* People actually fell off thinking that Shishu Launcher Premium was a thing, so we reverted that joke on our changelog
-* Switched to Lineage Fingerprint on Display code
-* Added support for sliders for OP devices
-* Added some goofy stuff: like The Drill and Developer mode insulter
-* Updated our APNs
-* Fixed dialer dark numbers on numpad
-* Misc fixes
-* Removed Roblox as system app
-* September security patch 
-* Network icons fixed. 
-* More bug fixes and optimisations
+
+- Initial A10 Build
+
+ROM Changes:
+- Initial stable 10 release
+- Added UI Styles and Screen recorder with internal audio support
+- Launcher3 tweaks: Icon packs, at a glance, a dark mode friendly google panel
+- Material toasts
+- Suspend actions
+- Power menu options and disable on secured lock
+- QS columns and rows
+- Network indicator with OOS style (thanks ArrowOS)
+- Pulse on new tracks and ambient visualizer
+- Lockscreen cover blur and our silly filters
+- Toggle brightness slider, auto brightness icon
+- Show running services and even our custom footer text instead of the build info (you can make your own too)
+- Vibrate on tapping QS tiles
+- 3 Fingers to screenshot
+- Headsup with all those tweaks
+- Fingerprint tweaks like error vibration and all that jazz
+- OmniJaws for weather (because it's reliable even on a non-gapps scenario)
+- OmniStyle with our header spicy selection, and also, a bug fix for 4K images that made the SystemUI crash and burn
+- Ambient gestures fixed
+- Network indicator fixed
+- Maybe more
