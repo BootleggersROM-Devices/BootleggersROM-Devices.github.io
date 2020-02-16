@@ -1,5 +1,5 @@
 ---
-codename: Mido
+codename: mido
 fullname: Xiaomi Redmi Note 4
 maintainer: Shashank patil
 newformat: true
