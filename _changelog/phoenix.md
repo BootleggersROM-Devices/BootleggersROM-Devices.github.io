@@ -2,9 +2,14 @@
 codename:phoenix
 ---
 
-- Fixed touch input for fpc fingerprint sensor (thanks to @CryllicBuster273).
-- Aux cams fixed (finally!).
-- May secutity patch.
-- Updated to HDR GCamGo by @san1ty.
-- Added Google Gallery Go as default.
-- Check changelog in settings for more...
+Changelog :
+- Added dynamic thermal profile switching.
+- Removed Lawnchair Launcher.
+- Added our own homegrown Shishu Launcher as default.
+- Removed GCamGo.
+- Added prebuilt ANXCamera(thanks to @AEonAX).
+- Removed tiktok sticker to fix short video fc on ANXCamera.
+- Enabled video bokeh mode in ANXCamera.
+- Enabled mimoji in ANXCamera.
+- Fixed video recording bug.
+- Check changelog in settings for more.
