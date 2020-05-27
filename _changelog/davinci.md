@@ -3,35 +3,27 @@ codename:davinci
 ---
 
 Device: 
-* Initial Shishufied build
-* Switched to libperfmgr
-* Added FPS overlay
-* Added DC dimming
+* Enforcing
+* Moved to OSS vendor (CLEAN FLASH)
+* Fixed DC dimming on low brightness
 
 Bootleggers:
-* Source rebase from march security patch
+* 5.1 wallpaper added
 * Fixed/updated some overlays regarding system colors support, not updated on current themes as they had issues.
+* Using CAF surfaceflinger (things like screenrecord should be less laggy but idk about screenshare and stuff)
 * Some gesture navbar changes, like hiding the pill and haptic feedback
+* Fixed messaging icons
 * Notification light support
+* Launcher3 got the installing app icon removed
 * Lockscreen charging extra info
+* Screenshot delay set to 0
 * VoLTE icon
+* Merged May sp
 * Customization for clock and battery icons
+* Unlink ringtone for notif volume
 * Updated network traffic
+* Added some qs tiles like caffeine, sound search and more
 * Smart charging
+* Add Brightness slider on statusbar
 * Toggle data icon and roaming
-* Added new Partial Screenshot UI from LOS, and long screenshot support
-* Forgot to take the trash out, brb
-* Brightness slider customization
-* Added the classic sammy clocks, with custom font support
-* New spicy clocks from our kitchen: Divided Lines, SFUNY, Oroño and 2 based on MNML Lock Clock Mods (credits to AmalD)
-* Switched from LOS recorder to AOSP internal one, with the new R based dialog, credits to DU
-* QS Blur
-* Pocket mode
-* Switched the LS blur down to 7 instead of 25
-* Added all the launcher funnies: From our intro to the custom messages, to the new UI made by us, to a new Now Playing that has more compatibility than the previous iteration
-* More support of custom system fonts, it can be better.
-* Switched from camera roll to a purified version of QuickPic made by WSTxda from WSTprojects
-* Added new icon pack (enabled by default on shishufied builds) made by simrat39
-* Added LOS protected apps (only works on Launcher3, sorry lawnchair folks)
-* And maybe more
-
+* Bring back 8.x volume panel behavior (Expand to control other media sources instead of using aosp dialog)
