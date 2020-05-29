@@ -14,7 +14,7 @@ title: Testing Builds Downloads
     <ul class="collapsible shishu-lighter-bg collapsible-noborder">
       {% for device in site.devicesbeta %}
         {% if device.maintainer %}
-        <li>
+        <li id="device.codename">
           <div class="collapsible-header collapsible-noborder shishu-lighter-bg">
             <i class="material-icons">phone_android</i>
           {{ device.codename }} | {{ device.fullname }}</div>

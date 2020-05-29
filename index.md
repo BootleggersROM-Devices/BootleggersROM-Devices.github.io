@@ -13,7 +13,7 @@ title: Downloads
     <span class="card-title">Releases</span>
     <ul class="collapsible shishu-lighter-bg collapsible-noborder">
       {% for device in site.devices %}
-        <li>
+        <li id="device.codename">
           <div class="collapsible-header collapsible-noborder shishu-lighter-bg">
             <i class="material-icons">phone_android</i>
           {{ device.codename }} | {{ device.fullname }}</div>
