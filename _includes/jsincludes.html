@@ -11,7 +11,7 @@
   });
 
 window.onhashchange = function() {
-   var tagElement = document.getElementById(location.hash.slice(1));
+   var tagElement = document.getElementById(location.hash.slice(1) || "none");
    if (tagElement) {
      var tagIndex = [...tagElement.parentElement.children].filter(x => x.tagName === "LI").indexOf(tagElement);
        $('.collapsible').collapsible('open', tagIndex);
