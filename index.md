@@ -12,7 +12,7 @@ title: Downloads
   <div class="card-content">
     <span class="card-title">Releases</span>
     <ul class="collapsible shishu-lighter-bg collapsible-noborder">
-      {% for device in site.devices %}
+      {% assign devicelistsize = site.devices | size %} {% if devicelistsize > 0 %} {% for device in site.devices %}
         <li>
           <div class="collapsible-header collapsible-noborder shishu-lighter-bg">
             <i class="material-icons">phone_android</i>
@@ -53,7 +53,7 @@ title: Downloads
            });
          });
         </script>
-      {% endfor %}
+      {% endfor %}{% endif %}
     </ul>
   </div>
 </div>
