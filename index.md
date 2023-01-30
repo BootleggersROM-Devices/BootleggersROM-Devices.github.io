@@ -53,7 +53,10 @@ title: Downloads
            });
          });
         </script>
-      {% endfor %}{% endif %}
+      {% endfor %}
+      {% else %}
+      <h3>Currently, we don't have any shishufied releases</h3>
+      <p>Check this site later, we're working on having a cool release for you :)</p>{% endif %}
     </ul>
   </div>
 </div>
