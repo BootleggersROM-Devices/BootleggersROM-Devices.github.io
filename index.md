@@ -20,11 +20,7 @@ title: Downloads
           <div class="collapsible-body collapsible-noborder shishu-midlight-bg">
             <span>Maintainer:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.maintainer }}</div><br>
             <span>Latest build:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.filename }}</div><br>
-            {% if device.newformat %}
             <span>Build size:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.buildsize | divided_by: 1048576 }}MB</div><br><br>
-            {% else %}
-            <span>Build size:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.buildsize }}</div><br><br>
-            {% endif %}
             <a class="waves-effect waves-light btn-small shishu-accent-btn" href="https://sourceforge.net/projects/bootleggersrom/files/builds/{{ device.codename }}/{{ device.filename }}"><i class="material-icons left">get_app</i>Download</a>
             {% if device.mirrorlink %}
               <a class="waves-effect waves-light btn-small shishu-accent-btn" href="{{ device.mirrorlink }}"><i class="material-icons left">open_in_new</i>Mirror</a>
