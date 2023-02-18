@@ -124,3 +124,10 @@ nav .brand-logo > img {
 .chlg-code {
   font-family: monospace, monospace!important;
 }
+
+.btlg-dwnld-title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+}

@@ -18,18 +18,29 @@ title: Downloads
             <i class="material-icons">phone_android</i>
           {{ device.codename }} | {{ device.fullname }}</div>
           <div class="collapsible-body collapsible-noborder shishu-midlight-bg">
+            <p class="btlg-dwnld-title">General Info</p>
             <span>Maintainer:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.maintainer }}</div><br>
-            <span>Latest build:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.filename }}</div><br>
+            {% if device.xdathread %}
+              <a class="waves-effect waves-light btn-small shishu-accent-btn" href="{{ device.xdathread }}"><i class="material-icons left">library_books</i>XDA Thread</a>
+            {% endif %}
+            <a class="waves-effect waves-light btn-small shishu-accent-btn" href="https://sourceforge.net/projects/bootleggersrom/files/builds/{{ device.codename }}"><i class="material-icons left">history</i>All the builds</a><br>
+            <a class="waves-effect waves-light btn-small shishu-accent-btn modal-trigger" href="#modal-chlg-{{device.codename}}"><i class="material-icons left">receipt</i>Changelog</a><br>
+            <p class="btlg-dwnld-title">Vanilla build</p>
+            <span>Latest build:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.filename }}</div><br><br>
             <span>Build size:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.buildsize | divided_by: 1048576 }}MB</div><br><br>
             <a class="waves-effect waves-light btn-small shishu-accent-btn" href="https://sourceforge.net/projects/bootleggersrom/files/builds/{{ device.codename }}/{{ device.filename }}"><i class="material-icons left">get_app</i>Download</a>
             {% if device.mirrorlink %}
               <a class="waves-effect waves-light btn-small shishu-accent-btn" href="{{ device.mirrorlink }}"><i class="material-icons left">open_in_new</i>Mirror</a>
+            {% endif %}<br>
+            {% if device.gapps_filename and device.gapps_buildsize  %}
+              <p class="btlg-dwnld-title">GApps build</p>
+              <span>Latest build:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.gapps_filename }}</div><br>
+              <span>Build size:</span><div class="chip shishu-lighter-bg" style="margin-left:4px">{{ device.gapps_buildsize | divided_by: 1048576 }}MB</div><br><br>
+              <a class="waves-effect waves-light btn-small shishu-accent-btn" href="https://sourceforge.net/projects/bootleggersrom/files/builds/{{ device.codename }}/{{ device.gapps_filename }}"><i class="material-icons left">get_app</i>Download</a>
+              {% if device.gapps_mirrorlink %}
+                <a class="waves-effect waves-light btn-small shishu-accent-btn" href="{{ device.gapps_mirrorlink }}"><i class="material-icons left">open_in_new</i>Mirror</a>
+              {% endif %}
             {% endif %}
-            <a class="waves-effect waves-light btn-small shishu-accent-btn" href="https://sourceforge.net/projects/bootleggersrom/files/builds/{{ device.codename }}"><i class="material-icons left">history</i>Older Builds</a>
-            {% if device.xdathread %}
-              <a class="waves-effect waves-light btn-small shishu-accent-btn" href="{{ device.xdathread }}"><i class="material-icons left">library_books</i>XDA Thread</a>
-            {% endif %}
-            <a class="waves-effect waves-light btn-small shishu-accent-btn modal-trigger" href="#modal-chlg-{{device.codename}}"><i class="material-icons left">receipt</i>Changelog</a>
           </div>
         </li>
         <!-- Modal for {{device.codename}} -->
