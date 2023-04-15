@@ -3,6 +3,15 @@ codename:starlte
 ---
 
 =====================
+    14/04/2023
+=====================
+* Updated to Bootleggers ROM 7.1
+* April SP
+* Latest trees from https://github.com/samsungexynos9810.
+* Caution: Always use our own recovery!
+
+
+=====================
     20/02/2023
 =====================
 
