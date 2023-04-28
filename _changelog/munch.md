@@ -4,34 +4,11 @@ codename:munch
 
 **Devices:**
 
-*2023-04-23*
-- Added Mi Soundfx
-- Added Dolby Atmos
-- Added Doze
-- Added Raise to Wake
-- Added Clear Speaker
-- Added DC dimming
-- Added thermal profiles and per-app refresh rate
-- Imported some missing audio prebuilts
-- Underhood audio policy and audio effects changes
-- Imported qti mediacodecs
-- Import and adapt Xiaomi Proprietary vibrator hal
-- Added xiaomi cit sensor service
-- Enabled Zram writeback
-- Enabled wifi 6gz band
-- wifi: Enable QPower and Deep sleep at the same time 
-- Added touch profiles for gaming and benchmarking
-- Imported more Video Calls related props
-- Labelled some RIL properties
-- Imported Xiaomi DisplayFeature service
-- Updated VibratorFeature libs from Miui Munch V14.0.1.0
-- Imported Xiaomi TouchFeature service
-- Allowed VoLTE and VoWiFi/WFC by default
-- overlay: Only allow 5G SA on Jio
-- Bring back support for HIGH_TOUCH_POLLING_PATH
-- Add Palm Sensor to TouchScreen GenFS
-- Nuke LiveDisplay
-- Many more underhood misc changes
+*2023-04-28*
+- Fixed vibration derps
+- Improved sounds output
+- Misc. fixes and improvements
+
 
 **Bootleggers:**
 - Source updated to April
